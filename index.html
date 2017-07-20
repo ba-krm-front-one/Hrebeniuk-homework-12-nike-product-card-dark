@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Nike</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="" />
+	<link rel="icon" href="favicon.png"/>
+	<link rel="stylesheet" href="css/normalize.css" />
+	<link rel="stylesheet" href="css/layout.css" />
+	<link rel="stylesheet" href="css/style.css" />
+
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
+<body class="ba-background">
+	<main class="ba-card">
+		<section class="ba-card_product">
+			<img id="ba-product__logo" src="asset/logo_sb_nike.png" alt="">
+			<div class="ba-probuct_presentation">
+				<img src="asset/Nike-SB-Stefan-Janoski-Max.png" alt="">
+			</div>
+			<ul class="ba-product_bullet">
+				<li id="ba-bullet--blue" class="ba-bullet_btn ba-bullet_btn--selected"></li>
+				<li id="ba-bullet--white" class="ba-bullet_btn"></li>
+				<li id="ba-bullet--red" class="ba-bullet_btn"></li>
+				<li id="ba-bullet--lazure" class="ba-bullet_btn"></li>
+			</ul>
+		</section>
+		<section class="ba-card_description">
+			<h1 class="ba-description_title">Nike SB Stefan Janoski Max</h1>
+			<p>Unisex Skateboarding Shoe</p>
+			<ul class="ba-description_raiting">
+				<li class="ba-raiting_stars ba-raiting_stars--selected"></li>
+				<li class="ba-raiting_stars ba-raiting_stars--selected"></li>
+				<li class="ba-raiting_stars ba-raiting_stars--selected"></li>
+				<li class="ba-raiting_stars"></li>
+				<li class="ba-raiting_stars"></li>
+			</ul>
+			<form class="ba-description_added-form">
+				<select class="ba-form_button" name="size" >
+					<option value="size" selected>Size</option>
+					<option value="39">39</option>
+					<option value="40">40</option>
+					<option value="41">41</option>
+				</select>
+				<select class="ba-form_button" name="qty">
+					<option value="qty" selected>Qty</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+				</select>
+				<button class="ba-form_button ba-form_button--added">Add to cart</button>
+			</form>
+		</section>
+	</main>
+</body>
+</html>
